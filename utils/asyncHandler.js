@@ -6,6 +6,8 @@ const asyncHandler = (requetHandler) => {
   }
 }
 
+export { asyncHandler }
+
 /*
 Understanding the upper syntax line by line
 we first define a function asyncHandler that takes a single argument requestHandler, which is expected to be a function (typically an Express.js route handler).
